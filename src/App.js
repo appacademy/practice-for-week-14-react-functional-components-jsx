@@ -2,7 +2,7 @@ import Showcase from "./Showcase";
 
 function App() {
   return (
-    <div>
+    <div className="background">
       <Showcase />
     </div>
   );

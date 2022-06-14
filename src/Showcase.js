@@ -14,7 +14,7 @@ function Showcase() {
         {favPokemon}'s type is {pokeCharacteristics.type} and one of their moves
         is {pokeCharacteristics.move}
       </h2>
-      <img>{bulbasaur}</img>
+      <img src={bulbasaur} />
     </div>
   );
 }

@@ -1,10 +1,9 @@
 import Showcase from "./Showcase";
+import background from "./App.css";
 
 function App() {
-  let favPokemon = "Bulbasaur";
   return (
-    <div>
-      <h1>{favPokemon}'s</h1>
+    <div className="background">
       <Showcase />
     </div>
   );

@@ -1,5 +1,6 @@
 import Showcase from "./Showcase.js";
 import BaseStats from "./BaseStats.js";
+import PokeMoves from "./PokeMoves";
 
 function App() {
   const baseStats = {
@@ -16,6 +17,7 @@ function App() {
       <h1>
         <Showcase />
         <BaseStats stats={baseStats} />
+        <PokeMoves />
       </h1>
     </div>
   );

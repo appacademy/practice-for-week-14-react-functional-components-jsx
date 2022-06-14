@@ -1,3 +1,5 @@
+import image from "../src/images/Bulbasaur";
+
 function Showcase() {
   let favPokemon = "Bulbasaur";
   let pokeCharacteristics = {

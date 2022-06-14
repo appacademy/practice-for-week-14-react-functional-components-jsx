@@ -1,7 +1,24 @@
+import Showcase from "./Showcase.js";
+import BaseStats from "./BaseStats.js";
+import PokeMoves from "./PokeMoves";
+
 function App() {
+  const baseStats = {
+    hp: 45,
+    attack: 49,
+    defense: 49,
+    spAttack: 65,
+    spDef: 65,
+    speed: 45
+  };
+
   return (
     <div>
-      <h1>App Component</h1>
+      <h1>
+        <Showcase />
+        <BaseStats stats={baseStats} />
+        <PokeMoves />
+      </h1>
     </div>
   );
 }

@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.type {
+  background-color: #00dd00;
+  color: #fff;
+}
+
+.move {
+  background-color: #fff;
+  color: #00dd00;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  margin: 20px;
+}

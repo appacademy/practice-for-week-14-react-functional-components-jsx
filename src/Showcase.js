@@ -1,3 +1,4 @@
+import { findByLabelText } from "@testing-library/react";
 import bulbImage from "./images/bulbasaur.jpg";
 import "./Showcase.css";
 
@@ -9,7 +10,15 @@ function Showcase() {
   };
 
   return (
-    <div className="container">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        textAlign: "center"
+      }}
+    >
       <h1>{favPokemon}'s Showcase Component</h1>
       <img src={bulbImage} alt={favPokemon} />
       <h2>

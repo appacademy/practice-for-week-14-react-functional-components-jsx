@@ -1,0 +1,16 @@
+.type {
+  background-color: #00dd00;
+  color: #fff;
+}
+
+.move {
+  background-color: #fff;
+  color: #00dd00;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  margin: 20px;
+}

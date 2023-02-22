@@ -1,7 +1,11 @@
+import './App.css';
+import Showcase from './Showcase.js'
 function App() {
   return (
-    <div>
-      <h1>App Component</h1>
+    <div className="background">
+      <h1><Showcase /></h1>
+     
+      
     </div>
   );
 }

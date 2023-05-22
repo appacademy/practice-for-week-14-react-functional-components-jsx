@@ -1,5 +1,5 @@
 
-import './App.css'
+import './app.css'
 import Showcase from './Showcase.js';
 import Spriggy from './images/Spriggy.png';
 

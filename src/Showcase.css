@@ -1,0 +1,13 @@
+.move {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: green;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  color: white;
+}
